@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-web-server",
+  "version": "1.0.0",
+  "description": "Pequeño servidor web con NodeJS",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "DeyvisBenito",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "env-var": "^7.5.0",
+    "express": "^4.21.2"
+  }
+}
